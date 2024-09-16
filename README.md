@@ -1,7 +1,7 @@
-# qfinder-elasticsearch-plugin
+# QBM25 Opensearch Plugin
 
 ## Overview
-This repository contains an implementation of a plugin for Elasticsearch, based on the quantity-centric ranking method QBM25, which ranks passages (sentences) based on term as well as quantity proximity to query. 
+This repository contains an implementation of a plugin for Opensearch/Elasticsearch, based on the quantity-centric ranking method QBM25, which ranks passages (sentences) based on term as well as quantity proximity to query. 
 
 The current implementation uses a scoring script to rescore the documents returned by Elasticsearch using the QBM25 algorithm.
 QBM25 is a numerically aware enhanced algorithm built on top of BM25 that can query large amount of unstructured text with numerical information,
